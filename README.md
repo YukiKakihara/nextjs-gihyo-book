@@ -3,3 +3,4 @@
 
 # オリジナルと異なる点
 * 開発環境をDocker化した
+* Github ActionsでLinterを動かした
