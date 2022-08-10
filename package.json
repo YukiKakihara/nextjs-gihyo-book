@@ -9,6 +9,11 @@
     "lint": "next lint --dir src",
     "format": "next lint --fix --dir src"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint"
+    }
+  },
   "dependencies": {
     "next": "12.2.4",
     "react": "18.2.0",
