@@ -3,29 +3,29 @@ import Head from 'next/head';
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
-html,
-body,
-textarea {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+  html,
+  body,
+  textarea {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  }
 
-* {
-  box-sizing: border-box;
-}
+  * {
+    box-sizing: border-box;
+  }
 
-a {
-  color: pointet;
-  text-decoration: none;
-  transition: .25s;
-  color: #000;
-}
+  a {
+    color: pointet;
+    text-decoration: none;
+    transition: .25s;
+    color: #000;
+  }
 
-ol, ul {
-  list-style: none;
-}
+  ol, ul {
+    list-style: none;
+  }
 `;
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
