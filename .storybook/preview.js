@@ -1,5 +1,5 @@
 import * as NextImage from 'next/image';
-import { addDecorator } from '@strobook/react';
+import { addDecorator } from '@storybook/react';
 import { createGlobalStyle, ThemeProvider } from 'styled-components';
 import { theme } from '../src/themes';
 
@@ -59,7 +59,7 @@ Object.defineProperty(NextImage, 'default', {
   ),
 });
 
-Object.defineProperty(NextImage, '__esModule', {
+Object.defineProperty(NextImage, '_esModule', {
   configurable: true,
   value: true,
 });
