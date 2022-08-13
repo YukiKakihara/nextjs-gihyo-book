@@ -12,11 +12,6 @@
     "build-storybook": "build-storybook",
     "test": "jest"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint"
-    }
-  },
   "dependencies": {
     "@emotion/react": "^11.10.0",
     "@emotion/styled": "^11.10.0",
