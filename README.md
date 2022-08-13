@@ -3,5 +3,6 @@
 
 # オリジナルと異なる点
 * 開発環境をDocker化した
-* Github ActionsでLinterを動かした
+* Github ActionsでLinter・Testを動かした
 * huskyでcommit前にLinterを動かすようにした
+* huskyでpush前にTestを動かすようにした
