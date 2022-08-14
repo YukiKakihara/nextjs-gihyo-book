@@ -23,7 +23,6 @@
     "prettier/prettier": [
       "error",
       {
-        "trailingComma": "all",
         "endOfLife": "lf",
         "semi": true,
         "singleQuote": true,
