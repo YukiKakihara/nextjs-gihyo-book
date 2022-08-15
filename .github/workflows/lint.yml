@@ -2,9 +2,6 @@ name: Lint
 
 on:
   pull_request:
-    paths:
-      - 'src/**'
-      - '.github/workflow/lint.yml'
 
 jobs:
   run-linters:
