@@ -17,14 +17,6 @@ module.exports = {
     "builder": "@storybook/builder-webpack5"
   },
   "staticDirs": ['public'],
-  // "babel": async options => ({
-  //   ...options,
-  //   plugin: [
-  //     '@babel/plugin-proposal-class-properties',
-  //     '@babel/plugin-proposal-private-methods',
-  //     '@babel/plugin-proposal-private-property-in-object',
-  //   ],
-  // }),
   "webpackFinal": async (config) => {
     config.resolve.plugins = [
       new TsconfigPathsPlugin({
